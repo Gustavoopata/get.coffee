@@ -29,3 +29,45 @@ ul{
     font-size: 20px;
     width: 25vw;
 }
+/* 
+media queries
+
+@media -> ele é uma regra de estilo do CSS, que atraves
+dessa regra de estilo, conseguimos determinar um estilo
+para diversos tipos de dispositivos (smart tvs, celulares, tablets, ipads, smartwatches...)
+
+sintaxe (forma de escrita)
+
+@media screen and (max-width:500px){
+    max-width -> aplique esse estilo
+    em uma tela com largura menor que 500px
+}
+@media screen and (min-width:1300px){
+
+    background-color:green;
+
+
+    min-width -> aplique esse estilo em
+    uma tela com largura maior que 1300px
+}
+
+*/
+
+@media screen and (max-width:500px){
+     body{
+        background-color: #ffffff;
+     }
+     header{
+        flex-direction:column ;
+        width: px;
+        height: 24vh;
+        
+     }
+     ul{
+        width: 70vw;
+     }
+     main img{
+        display: none;
+     }
+   
+}
